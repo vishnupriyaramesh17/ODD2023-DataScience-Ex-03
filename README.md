@@ -145,6 +145,87 @@ sns.boxplot(x='Row ID',data=df)
 ## Datatypes:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/ea64676e-4b63-4840-987f-8c65e2f88e7c)
 
+## Valuecount:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/890345d2-4094-410f-bf4e-50e582fc9c63)
+
+## Describing a data:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/d1c1573d-b0bb-4d5a-ae0a-4affde653fbd)
+
+## Boxplot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/cd8c0a28-0b14-42f4-9549-f865266cae70)
+
+## Countplot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/f178de62-a7f8-4f7b-b521-ba9e49648c0f)
+
+## Distribution plot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/44bcda7c-ab09-4ece-a1b7-e5947790bc7d)
+
+## Histogram plot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/d7b0dc60-12e7-40f0-8cdc-64348748bf89)
+
+## Skewness:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/2ca2381a-8437-46bb-a7b2-8f92fcad3057)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/2254077b-901f-48d0-b0c5-352ca521eaa0)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/8130e480-21d3-474e-b088-d846d0f91b2b)
+
+## Kurtosis:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/32e83426-dc6b-4e20-9edd-dcccc6aa14e7)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/efe1d007-b068-41ca-957a-84dc9eb5ddea)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/40a3e1e7-96ab-4456-85a3-abc14f67019f)
+
+## For SuperStore.csv file:
+
+## Dataframe:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/e79f918e-23f1-4cea-bae3-8d603f3fb315)
+
+## Data information:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/908357f8-757c-40fd-a33d-acd7407dfe09)
+
+## Datatypes:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/880181ae-4d2e-4afc-8fa9-e1d2af83d1d7)
+
+## Valuecounts:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/cd8d0c09-8a26-408b-888a-0e9fc64c1f2b)
+
+## Describing a data:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/ca200004-b3f9-4431-b593-a7582ad21ee1)
+
+## Boxplot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/9800885e-804b-45b4-ae76-c5bbf14fccd5)
+
+## Countplot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/ec04fc5c-a579-4121-9d3c-690e9df4c210)
+
+## Distribution plot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/15a67de8-2880-4ded-b6a6-9659270858fc)
+
+## Histogram plot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/79e3881a-577e-4e88-b934-f770abbd3974)
+
+## Skewness:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/307f9fe2-8960-48de-913e-c8b8a37e5cd3)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/f13bddb5-9a23-457d-b019-63862d4de7a2)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/f74193bd-afe4-4b0a-bae3-1502a5f1e515)
+
+## Kurtosis:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/92582484-b03f-4a7e-a598-c4c58a7a13b8)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/fb342ab0-6ac8-42c8-9438-2b31519dfb0a)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/8fc88546-ab7c-4bca-8c3a-b1e4e738ceed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
