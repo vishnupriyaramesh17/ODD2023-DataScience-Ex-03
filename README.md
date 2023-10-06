@@ -212,44 +212,6 @@ sns.boxplot(x='Row ID',data=df)
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/fb342ab0-6ac8-42c8-9438-2b31519dfb0a)
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/8fc88546-ab7c-4bca-8c3a-b1e4e738ceed)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# RESULT:
+Thus we have read the given data and performed the univariate analysis with different types of plots.
 
