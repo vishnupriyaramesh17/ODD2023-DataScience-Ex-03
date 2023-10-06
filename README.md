@@ -28,63 +28,139 @@ Do plots like boxplots,countplot,distribution plot,histogram plot
 ```
 DEVELOPED BY : Vishnupriya R
 REGISTER NO : 212222110054
+
+diabetes.csv
+
 import pandas as pd
-import numpy as np
-import seaborn as sns
-
-df=pd.read_csv('superstore.csv')
+df=pd.read_csv("/content/diabetes.csv")
 df
-
-df.head()
 df.info()
-df.describe()
-df.isnull().sum()
-
 df.dtypes
+df['DiabetesPedigreeFunction'].value_counts()
+df.describe()
+import seaborn as sns
+sns.boxplot(x='SkinThickness',data=df)
+sns.countplot(x="SkinThickness",data=df)
+sns.distplot(df['SkinThickness'])
+sns.histplot(x="SkinThickness",data=df)
+df.skew()
+sns.histplot(x='Insulin',data=df)
+sns.distplot(df['BloodPressure'])
+df.kurtosis()
+sns.boxplot(x='Insulin',data=df)
+sns.boxplot(x='SkinThickness',data=df)
 
-df['Postal Code'].value_counts()
+employeesal.csv
 
-sns.boxplot(x='Postal Code', data=df)
-sns.countplot(x='Postal Code',data=df)
-sns.distplot(df["Postal Code"])
-sns.histplot(x='Postal Code',data=df)
+import pandas as pd
+df=pd.read_csv("/content/employeesal.csv")
+df
+df.info()
+df.dtypes
+df['Salary'].value_counts()
+df.describe()
+import seaborn as sns
+sns.boxplot(x='Experience_Years',data=df)
+sns.countplot(x="Experience_Years",data=df)
+sns.distplot(df['Experience_Years'])
+sns.histplot(x="Experience_Years",data=df)
+df.skew()
+sns.histplot(x='Salary',data=df)
+sns.distplot(df['ID'])
+df.kurtosis()
+sns.boxplot(x='Salary',data=df)
+sns.boxplot(x='Experience_Years',data=df)
+
+SuperStore.csv
+
+import pandas as pd
+df=pd.read_csv("/content/SuperStore.csv")
+df
+df.info()
+df.dtypes
+df['Sales'].value_counts()
+df.describe()
+import seaborn as sns
+sns.boxplot(x='Postal Code',data=df)
+sns.countplot(x="Postal Code",data=df)
+sns.distplot(df['Postal Code'])
+sns.histplot(x="Postal Codes",data=df)
+df.skew()
+sns.histplot(x='Sales',data=df)
+sns.distplot(df['Postal Code'])
+df.kurtosis()
+sns.boxplot(x='Sales',data=df)
+sns.boxplot(x='Row ID',data=df)
 ```
-## OUTPUT:
-### Dataset:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/15423f63-c88f-41e9-b1b1-52f4393ae674)
 
-### Head:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/2e55b123-e077-4f70-a06f-d4e27203bec4)
+## Output:
 
-### Info:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/31e63d3b-b155-484b-82a2-23dba4df63e1)
+### For diabetes.csv file
 
-### Describe:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/83fd3e4b-3d40-4fd0-9286-3aa2bd47424d)
+#### Dataframe:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/268273e4-7df3-4885-843c-5d2df65d7311)
 
-### IsNull:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/b8919bfc-647b-47d8-81d8-0c1a5b2ba6ce)
+#### Data information:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/14798c5e-cb1f-4ffd-b4af-e35127c2832a)
 
-### dtypes:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/5db86ac1-d1e3-4255-a524-57ae2bd6a41a)
+#### Datatype:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/c5bd0216-f540-4ca1-9860-9272cc6b6a03)
 
-### Valuecount:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/a3a0978b-7073-450a-ab72-3a2daf972738)
+#### Valuecount:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/449bb012-2eb5-4b4b-a95f-f91f0d095478)
 
-### Boxplot:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/c373f026-3791-4ef3-a752-0812433f8d84)
+#### Describing a data:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/4eaa9988-5b63-4fa3-8966-fec7e96154ac)
 
-### Countplot:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/a62bcb1f-57c2-4af3-9a82-d5189633e8c3)
+#### Boxplot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/d5fddeac-0993-4a9b-951b-fa67aa93dfbc)
 
-### Distribution plot:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/d897af8e-5709-469a-8ceb-667fb8f61aff)
+#### Countplot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/58f5a8de-51ad-4b7e-8870-1ee404472d0f)
 
-### Histogram plot:
-![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/f4a1e7e8-1117-4cb9-9de3-5632dddb9f4d)
+#### Distribution plot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/c2bbb2cd-dbb7-41ed-8cdb-6f44160df2b1)
 
-## Result:
-Thus we have read the given data and performed the univariate analysis with different types of plots.
+#### Histogram plot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/59672395-2fa3-4e68-8c7e-e8b9f16052e1)
+
+#### Skewness:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/12613c07-461e-4ceb-9824-98ac0ec8f5fb)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/5d54ceb5-1b5e-4064-9641-caa266524a0c)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/33e03671-fd54-4260-b606-4e73bd147d11)
+
+#### Kurtosis:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/df11cd71-52b1-4559-b915-4f93e3b2fcbb)
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/dc538cc4-7d94-47c1-87ef-2ec5aadfe9c1)
+
+
+### For employeesal.csv file:
+
+#### Dataframe:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/4a6aa0a8-7d68-47e0-8c71-ab9385c93c63)
+
+#### Data information:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/8ef5de03-883c-4272-bf9c-d9d63792927a)
+
+#### Datatypes:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/ea64676e-4b63-4840-987f-8c65e2f88e7c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
