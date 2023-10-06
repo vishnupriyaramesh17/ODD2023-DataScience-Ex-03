@@ -74,6 +74,22 @@ sns.histplot(x='Postal Code',data=df)
 ### Boxplot:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/c373f026-3791-4ef3-a752-0812433f8d84)
 
+### Countplot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/a62bcb1f-57c2-4af3-9a82-d5189633e8c3)
+
+### Distribution plot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/d897af8e-5709-469a-8ceb-667fb8f61aff)
+
+### Histogram plot:
+![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/f4a1e7e8-1117-4cb9-9de3-5632dddb9f4d)
+
+## Result:
+Thus we have read the given data and performed the univariate analysis with different types of plots.
+
+
+
+
+
 
 
 
