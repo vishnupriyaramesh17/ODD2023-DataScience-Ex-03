@@ -97,11 +97,15 @@ sns.boxplot(x='Row ID',data=df)
 
 ## For diabetes.csv file
 
+
+
 ## Dataframe:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/268273e4-7df3-4885-843c-5d2df65d7311)
 
 ## Data information:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/14798c5e-cb1f-4ffd-b4af-e35127c2832a)
+
+
 
 ## Datatype:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/c5bd0216-f540-4ca1-9860-9272cc6b6a03)
@@ -112,6 +116,9 @@ sns.boxplot(x='Row ID',data=df)
 ## Describing a data:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/4eaa9988-5b63-4fa3-8966-fec7e96154ac)
 
+
+
+
 ## Boxplot:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/d5fddeac-0993-4a9b-951b-fa67aa93dfbc)
 
@@ -120,6 +127,8 @@ sns.boxplot(x='Row ID',data=df)
 
 ## Distribution plot:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/c2bbb2cd-dbb7-41ed-8cdb-6f44160df2b1)
+
+
 
 ## Histogram plot:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/59672395-2fa3-4e68-8c7e-e8b9f16052e1)
@@ -131,6 +140,8 @@ sns.boxplot(x='Row ID',data=df)
 
 ## Kurtosis:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/df11cd71-52b1-4559-b915-4f93e3b2fcbb)
+
+
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/dc538cc4-7d94-47c1-87ef-2ec5aadfe9c1)
 
 
@@ -151,6 +162,7 @@ sns.boxplot(x='Row ID',data=df)
 ## Describing a data:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/d1c1573d-b0bb-4d5a-ae0a-4affde653fbd)
 
+
 ## Boxplot:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/cd8c0a28-0b14-42f4-9549-f865266cae70)
 
@@ -159,6 +171,8 @@ sns.boxplot(x='Row ID',data=df)
 
 ## Distribution plot:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/44bcda7c-ab09-4ece-a1b7-e5947790bc7d)
+
+
 
 ## Histogram plot:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/d7b0dc60-12e7-40f0-8cdc-64348748bf89)
@@ -210,6 +224,7 @@ sns.boxplot(x='Row ID',data=df)
 ## Kurtosis:
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/92582484-b03f-4a7e-a598-c4c58a7a13b8)
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/fb342ab0-6ac8-42c8-9438-2b31519dfb0a)
+
 ![image](https://github.com/vishnupriyaramesh17/ODD2023-DataScience-Ex-03/assets/119393589/8fc88546-ab7c-4bca-8c3a-b1e4e738ceed)
 
 # RESULT:
